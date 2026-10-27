@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JohnDoe: Top 5 rzeczy w góry / Top 5 things for the mountains</title>
+  <meta name="description" content="Pięć rzeczy, które warto zabrać w góry, z orientacyjnymi cenami i odnośnikami do sklepów. Strona testowa reklamy przez Marketing API. / Five things worth taking to the mountains. Marketing API ad test page.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.5rem 0; }
+    .hero img { width: 100%; height: auto; border-radius: 6px; display: block; }
+    ol.top { padding-left: 1.4rem; }
+    ol.top li { margin-bottom: 1.4rem; }
+    ol.top h2 { margin: 0 0 .3rem; font-size: 1.1rem; }
+    .price { font-weight: 600; }
+    @media (max-width: 520px) { .hero { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Start / Home</a>
+    <a href="sprzet.html">Sprzęt w góry / Mountain gear</a>
+    <a href="privacy.html">Polityka prywatności / Privacy Policy</a>
+    <span class="lang-switch"><a href="#pl">PL</a> | <a href="#en">EN</a></span>
+  </nav>
+  <main>
+    <section id="pl" lang="pl">
+      <h1>Top 5 rzeczy w góry</h1>
+      <p class="notice"><strong>Strona testowa:</strong> to strona docelowa reklamy testowej JohnDoe, przygotowanej w ramach testu Marketing API Mety. JohnDoe nie jest sklepem, niczego nie sprzedaje i nie ma umów z wymienionymi sklepami. Ceny są orientacyjne i mogą się różnić w zależności od rozmiaru, koloru i promocji; aktualna cena jest zawsze w sklepie.</p>
+
+      <div class="hero">
+        <img src="szlak.jpg" alt="Wędrowiec na kamienistym górskim szlaku" width="1080" height="1080">
+        <img src="podroz.jpg" alt="Aparat fotograficzny na brązowej walizce" width="1080" height="1080">
+      </div>
+
+      <ol class="top">
+        <li>
+          <h2>Buty turystyczne z membraną</h2>
+          <p>Najważniejsza rzecz na szlaku: wodoodporne buty z dobrą podeszwą chronią przed poślizgnięciem i przemoczeniem. Warto je rozchodzić przed wyjazdem.</p>
+          <p>Przykład: buty turystyczne męskie Quechua MH500 wodoodporne, <span class="price">ok. 290 zł</span>, <a href="https://www.decathlon.pl/p/buty-turystyczne-meskie-quechua-mh500-wodoodporne/_/R-p-330812" rel="noopener" target="_blank">Decathlon.pl</a></p>
+        </li>
+        <li>
+          <h2>Kurtka przeciwdeszczowa</h2>
+          <p>Pogoda w górach zmienia się szybko. Lekka kurtka z membraną i wentylacją chroni przed deszczem i wiatrem, a po złożeniu mieści się w plecaku.</p>
+          <p>Przykład: kurtka turystyczna męska Quechua MH500 wodoodporna, <span class="price">ok. 400 zł</span>, <a href="https://www.decathlon.pl/p/kurtka-turystyczna-meska-quechua-mh500-wodoodporna/_/R-p-357657" rel="noopener" target="_blank">Decathlon.pl</a></p>
+        </li>
+        <li>
+          <h2>Plecak 25–30 litrów</h2>
+          <p>Na jednodniową wycieczkę wystarcza plecak 25–30 l z wentylowanymi plecami i pokrowcem przeciwdeszczowym: mieści kurtkę, wodę, jedzenie i apteczkę.</p>
+          <p>Przykład: plecak turystyczny Quechua MH500 30 l, <span class="price">ok. 250 zł</span>, <a href="https://www.decathlon.pl/p/plecak-turystyczny-quechua-mh500-30-l/_/R-p-310083" rel="noopener" target="_blank">Decathlon.pl</a></p>
+        </li>
+        <li>
+          <h2>Kijki trekkingowe</h2>
+          <p>Odciążają kolana przy zejściach i pomagają utrzymać równowagę na kamieniach. Regulowana długość pozwala dopasować je do wzrostu i terenu.</p>
+          <p>Przykład: kijek turystyczny Forclaz MT500, <span class="price">ok. 80 zł za sztukę (para ok. 160 zł)</span>, <a href="https://www.decathlon.pl/p/1-kijek-turystyczny-forclaz-mt500/_/R-p-173277" rel="noopener" target="_blank">Decathlon.pl</a></p>
+        </li>
+        <li>
+          <h2>Czołówka</h2>
+          <p>Na wypadek, gdyby zejście się przeciągnęło po zmroku. Czołówka zostawia wolne ręce, a wersja z akumulatorem USB nie wymaga zapasowych baterii.</p>
+          <p>Przykład: lampa czołowa Simond HL500 USB V3 (300 lm), <span class="price">ok. 130 zł</span>, <a href="https://www.decathlon.pl/p/lampka-czolowka-trekkingowa-forclaz-hl500-usb-v3-300-lumenow/_/R-p-339061" rel="noopener" target="_blank">Decathlon.pl</a></p>
+        </li>
+      </ol>
+      <p>Więcej o aplikacji JohnDoe: <a href="index.html">strona główna</a>.</p>
+    </section>
+
+    <section id="en" lang="en">
+      <h1>Top 5 things for the mountains</h1>
+      <p class="notice"><strong>Test page:</strong> this is the landing page of a JohnDoe test ad, created as part of a Meta Marketing API test. JohnDoe is not a shop, sells nothing and has no agreements with the shops listed. Prices are approximate and may vary by size, colour and promotions; the current price is always in the shop.</p>
+      <ol class="top">
+        <li><h2>Waterproof hiking boots</h2><p>Quechua MH500 waterproof, approx. 290 PLN, Decathlon.pl (link above).</p></li>
+        <li><h2>Rain jacket</h2><p>Quechua MH500 waterproof jacket, approx. 400 PLN.</p></li>
+        <li><h2>25–30 litre backpack</h2><p>Quechua MH500 30 l, approx. 250 PLN.</p></li>
+        <li><h2>Trekking poles</h2><p>Forclaz MT500, approx. 80 PLN each.</p></li>
+        <li><h2>Headlamp</h2><p>Simond HL500 USB V3, approx. 130 PLN.</p></li>
+      </ol>
+    </section>
+  </main>
+  <footer>Ostatnia aktualizacja / Last updated: 2026-10-27</footer>
+</body>
+</html>
